@@ -1,0 +1,34 @@
+.parent{
+    display: flex;
+    border: 5px solid orangered;
+    flex-direction: column;
+}
+.parent >div{
+
+    color: white;
+    text-align: center;
+    padding: 3px;
+
+}
+.ch1{
+background-color: green;
+}
+.ch2{
+background-color: blue;
+}
+.ch3{
+background-color: purple;
+}
+.ch4{
+background-color: gray;
+
+}
+.ch5{
+background-color: orange;
+
+}
+.ch6{
+background-color: orangered;
+
+
+}

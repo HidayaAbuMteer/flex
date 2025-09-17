@@ -1,0 +1,73 @@
+/* .parent{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: white;
+    align-items:space-evenly;
+   
+}
+ch{
+  
+    display: flex;
+    flex-flow: column wrap;
+    background-color: white;
+    align-items:space-evenly;
+       margin: 5px;
+
+}
+
+.small{
+    background-color: blue;
+    color: white;
+    height:50px;
+    margin: 5px;
+    width:calc(75%/4);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.big{
+     background-color: blue;
+    color: white;
+    height:50px;
+    margin: 5px;
+    width:calc(80%/3);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+} */
+
+.container {
+    max-width: 500px;
+    /* background-color: aqua; */
+    /* border: 5px solid black; */
+}
+
+.container .one , .container .two , .container .three {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.container .one > div , .container .two > div , .container .three > div  {
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    font-weight: bold;
+    background-color: rgb(142, 142, 235);
+    border: 2px solid rgb(89, 89, 232);
+    padding: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.container .two .grow {
+    width: 90px;
+    text-align: center;
+}

@@ -1,0 +1,18 @@
+.parent{
+    display: flex;
+   
+
+}
+.parent >div{
+    color: white;
+    text-align: center; 
+}
+.ch1{
+    background-color: aqua;
+    flex-basis: 70%;
+
+}
+.ch2{
+    background-color: gray;
+    flex-basis: 30%;
+}

@@ -1,0 +1,24 @@
+header{
+  border-bottom: 1px solid rgb(86, 85, 85);
+  font-weight: bolder;
+  font-size: larger;
+  padding: 5px;
+}
+ul{
+ list-style-type: none;
+  margin: 0;
+  padding:0;
+  display: flex; 
+  justify-content: flex-end;
+   border-bottom: 1px solid rgb(86, 85, 85);
+
+ }
+ul li a {
+  display: block;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+  .one{
+ margin-right: 1240px;  
+}
